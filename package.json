@@ -1,0 +1,20 @@
+{
+  "name": "blockchain-expense-tracker",
+  "version": "1.0.0",
+  "description": "A decentralized expense tracker built on Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "compile": "hardhat compile"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+} 
